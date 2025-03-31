@@ -1,0 +1,750 @@
+@keyframes scaleChanger {
+    from {
+        transform: scale(.5, .5);
+        /* opacity: 0; */
+    }
+
+    to {
+        transform: scale(1, 1);
+        /* opacity: 1; */
+    }
+}
+
+@keyframes backgroundDisappear {
+    from {
+        opacity: 1;
+
+    }
+
+    to {
+        opacity: .60;
+
+    }
+}
+
+@keyframes backgroundappear {
+    from {
+        opacity: .60;
+    }
+
+    to {
+        opacity: 1;
+
+    }
+}
+
+@keyframes visible {
+
+    from {
+
+        transform: scale(.1, .1);
+        opacity: 0;
+
+    }
+
+    to {
+
+        transform: scale(1, 1);
+        opacity: 1;
+
+    }
+
+}
+
+
+@keyframes example {
+
+    from {
+        top: 100%;
+        opacity: 0%;
+
+    }
+
+    to {
+        top: 50%;
+        opacity: 100%;
+    }
+
+
+
+}
+
+
+@keyframes example2 {
+    from {
+        top: 50%;
+        opacity: 100%;
+    }
+
+
+    to {
+        top: 100%;
+        opacity: 0%;
+
+    }
+
+
+
+}
+
+@keyframes circle {
+
+    from {
+        opacity: 1;
+        top: 20%;
+    }
+
+    to {
+        opacity: 0;
+        top: 90%;
+    }
+
+
+}
+
+
+.circleAnimationContainer {
+    position: absolute;
+    border-radius: 12px 12px;
+    border: 1px solid white;
+    padding: .05%;
+    display: flex;
+    justify-content: center;
+}
+
+.circleAnimation {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+    animation-name: circle;
+    animation-duration: 1.25s;
+    animation-iteration-count: infinite;
+}
+
+.Main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(238, 235, 235, 0.7);
+    font-family: "IBM Plex Sans Arabic";
+
+}
+
+
+.head {
+    text-align: center;
+    background-image: url("0.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    animation-name: backgroundappear;
+    animation-duration: .6s;
+}
+
+
+.my-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation-name: example;
+    animation-duration: .6s;
+    height: auto;
+    z-index: 0;
+
+}
+
+.shopIcon,
+.searchIcon,
+.userIcon {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    z-index: 2;
+
+}
+
+.lozi-image {
+    z-index: 2;
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+}
+
+.sportName {
+    color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    animation-name: text;
+    animation-duration: .6s;
+
+
+}
+
+
+
+.Addendum {
+
+    color: white;
+    background-color: rgba(255, 255, 255, 0.09);
+    backdrop-filter: blur(12px);
+    box-shadow: 12px 12px 42px rgba(0, 0, 0, .04);
+
+
+}
+
+.number {
+    margin-bottom: 0px;
+    font-weight: bold;
+
+}
+
+
+.posEnd {
+    position: absolute;
+
+    transform: translate(-50%, -50%);
+
+}
+
+.persiamP {
+    margin-bottom: 0px;
+}
+
+.bar {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    border-bottom: 1px solid rgb(163, 163, 163);
+    border-radius: 5px 5px 0px 0px;
+
+}
+
+.buttonsContainer {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.barObj {
+    background-color: rgba(223, 226, 226, 0);
+    border: none;
+    color: white;
+
+
+}
+
+.hidden {
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 0px 0px 5px 5px;
+    display: none;
+    justify-content: left;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+.sportContainer {
+    flex-wrap: nowrap;
+    direction: rtl;
+    text-align: right;
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.hoverOrange {
+    /* color: black; */
+    transition: color .3s;
+
+}
+
+.hoverOrange:hover {
+    color: rgb(255, 193, 7);
+}
+
+
+.headList {
+    position: relative;
+    font-weight: 900;
+
+}
+
+.headList:before {
+    content: "";
+    position: absolute;
+    transform: translate(-50%);
+    width: 10px;
+    height: 10px;
+    background-color: rgb(252, 186, 88);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+
+
+
+.card-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 10px;
+    gap: 20px;
+}
+
+.mylock {
+
+    width: 20%;
+    height: 50%;
+    margin-top: 5%;
+    margin-left: 2%;
+    color: white;
+    text-align: center;
+    background-color: red;
+    display: inline;
+
+}
+
+
+.mylock2 {
+    width: 20%;
+    height: 50%;
+    margin-top: 5%;
+    margin-left: 56%;
+    color: white;
+    text-align: center;
+    background-color: rgb(52, 237, 92);
+    display: inline;
+
+}
+
+.color-gray {
+    color: rgb(181, 181, 181);
+}
+
+.Height {
+    height: 45%;
+}
+
+
+
+
+.arrow-left {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border: 3px solid rgba(161, 161, 161, 0.4);
+    transform: rotate(45deg);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    background-color: rgba(0, 0, 0, .0);
+    z-index: 100;
+
+}
+
+
+
+.arrow-right {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border: 3px solid rgba(161, 161, 161, 0.4);
+    background-color: rgba(0, 0, 0, .0);
+    color: white;
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+
+}
+
+.arrowIcon {
+    font-weight: 900;
+}
+
+
+button:focus {
+    outline: none;
+}
+
+.loginP3 {
+    background-color: rgba(0, 0, 0, 0.55);
+    position: absolute;
+    display: none;
+    animation-name: visible;
+    animation-duration: .5s;
+    color: #fff;
+    z-index: 2;
+}
+
+.loginP2 {
+    background-color: rgba(0, 0, 0, 0.55);
+    position: absolute;
+    display: none;
+    animation-name: visible;
+    animation-duration: .5s;
+    color: #fff;
+    z-index: 2;
+
+}
+
+.loginP1 {
+    background-color: rgba(0, 0, 0, 0.55);
+    position: absolute;
+    display: none;
+    animation-name: visible;
+    animation-duration: .5s;
+    color: #fff;
+    z-index: 2;
+
+}
+
+.mustSaleContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+
+.sportsContainer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.diamondContainer {
+    direction: rtl;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.flexDiamond {
+    display: inline;
+
+}
+
+.cardDiamond {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+}
+
+.pDiamondContainer {
+    font-weight: bold;
+    text-align: center;
+}
+
+.DiamondP {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+.DiamondP::before {
+    content: '';
+    position: absolute;
+    transform: rotate(46deg) translateY(-50%) skew(10deg, 10deg);
+    background-color: rgba(255, 255, 255, 0);
+    border: 1.6px solid orange;
+    border-radius: 5px;
+    left: 67%;
+    top: 40%;
+    width: 35px;
+    height: 35px;
+}
+
+
+
+
+.whyDiamond {
+    /* background-color: #fff; */
+    width: 85%;
+    display: flex;
+    margin-top: 10%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.whyDiamondContainer {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.whyDiamondFlexColumn {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Description {
+    transform: translate(-50%, -50%);
+    text-align: center;
+    position: absolute;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.Description::before {
+    content: '';
+    position: absolute;
+    transform: rotate(46deg) translateY(-50%) skew(10deg, 10deg);
+    background-color: rgba(255, 255, 255, 0);
+    border: 1.6px solid orange;
+    border-radius: 5px;
+    left: 67%;
+    top: 40%;
+    width: 35px;
+    height: 35px;
+}
+
+.blockContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block1 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.block2 {
+    background-color: rgb(209, 207, 207);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.block3 {
+    background-color: rgb(209, 207, 207);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.block4 {
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.diamondVideoContainer {
+    display: inline;
+    position: relative;
+    margin-top: 10%;
+}
+
+.videoImageWhyDiamond {
+    display: inline;
+    position: absolute;
+    z-index: 1;
+}
+
+.videoBorderWhyDiamond {
+    position: absolute;
+    z-index: 0;
+
+}
+
+.buttonPlay {
+    color: white;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+
+}
+
+.videoModalContainer {
+
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+.videoModalFlex {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ModalBody {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: scaleChanger;
+    animation-duration: 1s;
+}
+
+
+
+
+.collectionImageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+
+}
+
+
+.collectionImage2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.collectionImageFlex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+.ssContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    direction: rtl;
+    width: 100%;
+}
+
+.sponsorContainer {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2%;
+}
+
+.sponsorTitle {
+    width: 100%;
+    font-weight: 900;
+}
+
+
+.scoreContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+}
+
+.scoreItem {
+    display: flex;
+    position: relative;
+
+}
+
+.numberScore {
+    color: #838383;
+}
+
+.ellipticScore {
+    color: rgb(255, 255, 255);
+    background: #444;
+}
+
+.mediaConnectionContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+    width: 100%;
+}
+
+.mediaItem {
+    display: flex;
+    direction: rtl;
+    transition: margin-top .4s;
+    border: none;
+    background: none;
+
+}
+
+.mediaImage {
+    margin-left: 0%;
+    z-index: 1;
+}
+
+.MediaExplaintion {
+    z-index: 0;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.phoneInfo {
+    z-index: 0;
+    background-color: #ffffff;
+    text-align: center;
+    position: relative;
+
+
+}
+
+.typePhone {
+    background-color: #444;
+    transform: translate(-50%, -50%);
+    color: white;
+    position: absolute;
+
+}

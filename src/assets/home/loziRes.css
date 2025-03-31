@@ -1,0 +1,3359 @@
+@media only screen and (max-width: 576px) {
+
+    .card {
+        min-width: 70%;
+        max-width: 90%;
+    }
+
+    .head {
+        height: 500px;
+    }
+
+    .my-image {
+        width: 100%;
+
+    }
+
+    .bar {
+        display: none;
+
+    }
+
+    .Addendum {
+        position: absolute;
+        top: 59%;
+        left: 7%;
+        border-radius: 12%;
+        width: 33%;
+        height: 22%;
+
+    }
+
+    .divBox {
+        margin-top: 13%;
+    }
+
+    .number {
+        font-size: 260%;
+    }
+
+
+    .posEnd {
+        left: 75%;
+
+
+    }
+
+    .persiamP {
+        font-size: 100%;
+    }
+
+    .sportName {
+
+
+        top: 70%;
+        left: 80%;
+        width: 40%;
+
+
+
+    }
+
+    .Name1 {
+        font-weight: 450;
+        font-family: "IBM Plex Sans Arabic";
+        font-size: 35px;
+        margin-bottom: 0px;
+
+
+    }
+
+    .explanation {
+        font-size: 13px;
+        font-weight: 500;
+        margin-top: 5px;
+
+    }
+
+    @keyframes text {
+        from {
+            top: 70%;
+            left: 50%;
+            opacity: 0%;
+        }
+
+        to {
+            top: 70%;
+            left: 80%;
+            opacity: 100%;
+        }
+
+    }
+
+    @keyframes text2 {
+        from {
+            top: 70%;
+            left: 80%;
+            opacity: 100%;
+        }
+
+        to {
+            top: 70%;
+            left: 50%;
+            opacity: 0%;
+        }
+
+
+
+    }
+
+    .lozi-image {
+
+        top: 9%;
+        left: 50%;
+        width: 35%;
+
+
+    }
+
+    .shopIcon {
+
+        display: none;
+
+    }
+
+    .searchIcon {
+
+        display: none;
+
+    }
+
+    .userIcon {
+
+        display: none;
+
+    }
+
+    .arrow-left {
+
+        width: 35px;
+        height: 35px;
+        top: 10%;
+        left: 20%;
+        
+
+    }
+
+    .arrow-right {
+
+        width: 35px;
+        height: 35px;
+        top: 10%;
+        left: 70%;
+
+
+
+    }
+
+    .arrowIcon {
+        font-size: 20px;
+    }
+
+    .circleAnimationContainer {
+
+        top: 80%;
+        left: 49%;
+        width: 12px;
+        height: 30px;
+    }
+
+    .circleAnimation {
+        height: 5px;
+        width: 5px;
+    }
+
+    .sportsContainer {
+        width: 87%;
+        margin-top: 10%;
+        padding-top: 1%;
+
+    }
+
+    .flexDiamond {
+        margin-left: 2%;
+        margin-top: 2%;
+        margin-bottom: 1%;
+        width: 40%;
+
+    }
+
+    .pDiamondContainer {
+        font-size: 18px;
+        margin-bottom: 9%;
+        margin-top: 5%;
+    }
+
+    .imageDiamond {
+
+        width: 100%;
+        margin: 0px;
+    }
+
+    .whyDiamond {
+        flex-direction: column;
+    }
+
+
+    .whyDiamondContainer {
+        width: 100%;
+        padding: 8%;
+    }
+
+    .Description {
+
+        left: 50%;
+        top: 20%;
+    }
+
+    .blockContainer {
+        margin-top: 65%;
+
+    }
+
+    .block1 {
+        width: 100%;
+        padding: 5%;
+        position: relative;
+        height: 120px;
+        order: 1;
+    }
+
+    .block2 {
+        width: 100%;
+        padding: 5%;
+        position: relative;
+        height: 120px;
+        order: 2;
+    }
+
+    .block3 {
+        width: 100%;
+        padding: 5%;
+        position: relative;
+        height: 120px;
+        order: 4;
+
+    }
+
+    .block4 {
+        width: 100%;
+        padding: 5%;
+        position: relative;
+        height: 120px;
+        order: 3;
+
+    }
+
+    .textP {
+        display: inline;
+        font-weight: bold;
+    }
+
+    .textBlock {
+        margin-right: 0%;
+        margin-left: -30%;
+        text-align: center;
+        width: 70%;
+        font-size: 18px;
+        direction: rtl;
+    }
+
+    .textBlock2 {
+        margin-right: 0%;
+        margin-left: -20%;
+        text-align: center;
+        width: 70%;
+        font-size: 20px;
+        direction: rtl;
+
+
+    }
+
+    .textBlock3 {
+        margin-right: 5%;
+        margin-left: -20%;
+        text-align: center;
+        width: 70%;
+        font-size: 20px;
+        direction: rtl;
+
+
+    }
+
+    .textBlock4 {
+        margin-right: 0%;
+        margin-left: -20%;
+        text-align: center;
+        width: 70%;
+        font-size: 20px;
+        direction: rtl;
+
+    }
+
+
+
+    .imageBlock {
+        width: 20%;
+        position: absolute;
+        left: 75%;
+
+    }
+
+    .imageBlock2 {
+        width: 20%;
+        position: absolute;
+        left: 75%;
+
+
+    }
+
+    .imageBlock3 {
+        width: 20%;
+        position: absolute;
+        left: 75%;
+    }
+
+    .imageBlock4 {
+        width: 20%;
+        position: absolute;
+        left: 75%;
+    }
+
+
+
+    .diamondVideoContainer {
+        width: 100%;
+        height: 450px;
+    }
+
+    .videoImageWhyDiamond {
+        width: 90%;
+        left: 10%;
+        top: 25%;
+    }
+
+    .videoBorderWhyDiamond {
+        border: 3px solid black;
+        width: 90%;
+        top: 28%;
+        left: 7%;
+
+    }
+
+    .buttonPlay {
+        left: 55%;
+        top: 45%;
+        font-size: 50px;
+
+    }
+
+    .mustSale {
+        position: absolute;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .mustSale::before {
+        content: '';
+        position: absolute;
+        left: 85%;
+        top: 40%;
+        transform: rotate(45deg) translateY(-50%) skew(20deg, 20deg);
+        width: 30px;
+        height: 30px;
+        background-color: rgba(255, 255, 255, 0);
+        border: 1.6px solid orange;
+        border-radius: 5px;
+    }
+
+
+
+    .ModalBody {
+        top: 30%;
+        background-color: transparent;
+        width: 400px;
+        height: 300px;
+        padding: 2% 1% 2% 1%;
+        border-radius: 20px;
+    }
+
+    .videoModal {
+        width: 100%;
+        height: 80%;
+    
+    }
+
+
+    .collectionImageContainer {
+        margin-top: 30%;
+
+    }
+
+    .collectionImage1 {
+        width: 0%;
+        margin-left: 15%;
+        margin-right: 10%;
+        display: none;
+
+    }
+
+    .collectionImage2 {
+        width: 100%;
+        margin-right: 15%;
+
+
+    }
+
+    .itemcollectionImage1 {
+        margin-bottom: 1%;
+        width: 10%;
+    }
+
+    .itemcollectionImage2 {
+        margin-left: 2%;
+        margin-bottom: 1%;
+        width: 41%;
+        order: 3;
+
+    }
+
+    .itemcollectionImage3 {
+        margin-left: 2%;
+        margin-bottom: 1%;
+        width: 84%;
+        order: 1;
+
+    }
+
+    .itemcollectionImage4 {
+        margin-left: 2%;
+        margin-bottom: 1%;
+        width: 84%;
+        order: 2;
+    }
+
+    .itemcollectionImage5 {
+        margin-left: 2%;
+        margin-bottom: 1%;
+        width: 41%;
+        order: 4;
+
+    }
+
+    .ssContainer {
+        margin-top: 10%;
+        padding: 2%;
+    }
+
+    .sponsorContainer {
+        width: 90%;
+    }
+
+    .sponsorTitle {
+        margin-bottom: 5%;
+        margin-top: 2%;
+        font-size: 18px;
+    }
+
+    .imageSponser {
+        width: 33%;
+        margin-left: 15%;
+        margin-bottom: 10%;
+    }
+
+
+    .scoreContainer {
+        width: 90%;
+        margin-left: 2%;
+        margin-bottom: 2%;
+    }
+
+    .scoreItem {
+        width: 100%;
+        margin-bottom: 4%;
+
+    }
+
+    .scoreTitle {
+
+        margin-bottom: 10%;
+        margin-top: 10%;
+        font-weight: 900;
+        font-size: 21px;
+
+    }
+
+    .trophiesImage1 {
+        width: 18px;
+        height: 25px;
+        position: absolute;
+        left: 89%;
+        top: -12%;
+    }
+
+    .trophiesImage2 {
+        width: 17px;
+        height: 21px;
+        position: absolute;
+        left: 89%;
+        top: 0%;
+    }
+
+    .trophiesImage3 {
+        width: 20px;
+        height: 18px;
+        position: absolute;
+        left: 89%;
+        top: 3%;
+    }
+
+    .nameScore {
+        margin-right: 12%;
+        font-size: 14px;
+        font-weight: 700;
+
+    }
+
+    .numberScore {
+        margin-right: 33%;
+        font-size: 14px;
+    }
+
+    .ellipticScore {
+        width: 33%;
+        border-radius: 150px;
+        margin-bottom: 5%;
+        padding: 1% 1% 1% 1%;
+        font-size: 14px;
+        font-weight: 900;
+    }
+
+    .arrowScore {
+        font-size: 17px;
+    }
+
+
+
+    .mediaConnectionContainer {
+        padding-right: 10%;
+        margin-top: 15%;
+    }
+
+    .mediaItem {
+        margin-top: 6%;
+
+    }
+
+    .mediaImage {
+        margin-left: 0%;
+        z-index: 1;
+    }
+
+
+    .mediaApp {
+        width: 50%;
+    }
+
+    .phone {
+        width: 100%;
+        margin-right: 20%;
+    }
+
+    .MediaExplaintion {
+        margin-right: -6%;
+        margin-top: 4%;
+        padding: 1%;
+        width: 65%;
+        height: 35px;
+        font-size: 14px;
+
+    }
+
+    .phoneInfo {
+        margin-right: -3%;
+        margin-top: 2%;
+        padding: 1%;
+        width: 50%;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .typePhone {
+        width: 33%;
+        left: 50%;
+        top: 100%;
+        border-radius: 30px;
+        font-size: 10px;
+        padding: 1%;
+
+    }
+
+}
+
+@media only screen and (min-width: 576px) {
+
+    .mustSale {
+        position: absolute;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .mustSale::before {
+        content: '';
+        position: absolute;
+        left: 85%;
+        top: 40%;
+        transform: rotate(45deg) translateY(-50%) skew(20deg, 20deg);
+        width: 30px;
+        height: 30px;
+        background-color: rgba(255, 255, 255, 0);
+        border: 1.6px solid orange;
+        border-radius: 5px;
+    }
+
+    .card {
+        min-width: 53%;
+        max-width: 70%;
+    }
+
+    .head {
+        height: 560px;
+    }
+
+    .my-image {
+        width: 65%;
+    }
+
+    .bar {
+        display: none;
+
+    }
+
+    .Addendum {
+        position: absolute;
+        top: 52%;
+        left: 27%;
+        border-radius: 8%;
+        width: 19%;
+        height: 20%;
+
+    }
+
+    .divBox {
+        margin-top: 13%;
+    }
+
+    .number {
+        font-size: 260%;
+    }
+
+
+    .posEnd {
+        left: 75%;
+
+
+    }
+
+    .persiamP {
+        font-size: 110%;
+    }
+
+    .sportName {
+
+
+        top: 60%;
+        left: 75%;
+        width: 40%;
+
+
+    }
+
+    .Name1 {
+        font-weight: 450;
+        font-family: "IBM Plex Sans Arabic";
+        font-size: 35px;
+
+
+    }
+
+    .explanation {
+        font-size: 15px;
+        font-weight: 500;
+        margin-top: 5px;
+
+    }
+
+    @keyframes text {
+        from {
+            top: 60%;
+            left: 50%;
+            opacity: 0%;
+        }
+
+        to {
+            top: 60%;
+            left: 75%;
+            opacity: 100%;
+        }
+
+    }
+
+    @keyframes text2 {
+        to {
+            top: 60%;
+            left: 50%;
+            opacity: 0%;
+        }
+
+        from {
+            top: 60%;
+            left: 75%;
+            opacity: 100%;
+        }
+
+    }
+
+    .lozi-image {
+
+        top: 9%;
+        left: 50%;
+        width: 33%;
+
+
+    }
+
+    .shopIcon {
+
+        display: none;
+
+    }
+
+    .searchIcon {
+
+        display: none;
+
+    }
+
+    .userIcon {
+
+        display: none;
+
+    }
+
+    .arrow-left {
+
+        width: 35px;
+        height: 35px;
+        top: 80%;
+        left: 81%;
+
+    }
+
+    .arrow-right {
+
+        width: 35px;
+        height: 35px;
+        top: 80%;
+        left: 89%;
+
+
+    }
+
+    .arrowIcon {
+        font-size: 20px;
+    }
+
+    .circleAnimationContainer {
+
+        top: 80%;
+        left: 49%;
+        width: 15px;
+        height: 35px;
+    }
+
+    .circleAnimation {
+        height: 5px;
+        width: 5px;
+    }
+
+
+    .sportsContainer {
+        width: 87%;
+        height: 520px;
+        margin-top: 10%;
+        padding: 1%;
+
+    }
+
+    .flexDiamond {
+        margin-left: 1%;
+        margin-top: 3%;
+        margin-bottom: 5%;
+        width: 19%;
+
+    }
+
+    .pDiamondContainer {
+        font-size: 18px;
+        margin-bottom: 15%;
+        margin-top: 4%;
+    }
+
+
+    .imageDiamond {
+
+        width: 100%;
+        margin: 0px;
+    }
+
+
+
+    .whyDiamond {
+        flex-direction: column;
+    }
+
+
+    .whyDiamondContainer {
+        width: 100%;
+    }
+
+    .Description {
+
+        left: 50%;
+        top: 10%;
+    }
+
+    .blockContainer {
+        margin-top: 30%;
+
+    }
+
+    .block1 {
+        width: 100%;
+        padding: 5%;
+        position: relative;
+        height: 170px;
+        order: 1;
+        direction: rtl;
+    }
+
+    .block2 {
+        width: 100%;
+        padding: 5%;
+        position: relative;
+        height: 170px;
+        order: 2;
+
+    }
+
+    .block3 {
+        width: 100%;
+        padding: 5%;
+        position: relative;
+        height: 170px;
+        order: 4;
+
+
+
+    }
+
+    .block4 {
+        width: 100%;
+        padding: 5%;
+        position: relative;
+        height: 170px;
+        order: 3;
+
+
+    }
+
+    .textP {
+        display: inline;
+        font-weight: bold;
+    }
+
+    .textBlock {
+        margin-right: 0%;
+        margin-left: -40%;
+        text-align: center;
+        width: 60%;
+        font-size: 23px;
+        direction: rtl;
+
+    }
+
+    .textBlock2 {
+        margin-right: 0%;
+        margin-left: -20%;
+        text-align: center;
+        width: 50%;
+        font-size: 23px;
+        direction: rtl;
+
+    }
+
+    .textBlock3 {
+        margin-right: 0%;
+        margin-left: -20%;
+        text-align: center;
+        width: 50%;
+        font-size: 23px;
+        direction: rtl;
+
+    }
+
+    .textBlock4 {
+        margin-right: 0%;
+        margin-left: -20%;
+        text-align: center;
+        width: 50%;
+        font-size: 23px;
+        direction: rtl;
+
+    }
+
+
+
+    .imageBlock {
+        width: 15%;
+        position: absolute;
+        left: 75%;
+    }
+
+    .imageBlock2 {
+        width: 15%;
+        position: absolute;
+        left: 75%;
+
+
+    }
+
+    .imageBlock3 {
+
+        width: 15%;
+        position: absolute;
+        left: 75%;
+
+    }
+
+    .imageBlock4 {
+        width: 15%;
+        position: absolute;
+        left: 75%;
+
+    }
+
+
+
+    .diamondVideoContainer {
+        width: 100%;
+        height: 450px;
+    }
+
+    .videoImageWhyDiamond {
+        width: 90%;
+        left: 10%;
+        top: 25%;
+    }
+
+    .videoBorderWhyDiamond {
+        border: 3px solid black;
+        width: 90%;
+        top: 28%;
+        left: 7%;
+
+    }
+
+    .buttonPlay {
+        left: 55%;
+        top: 57%;
+        font-size: 70px;
+
+    }
+
+
+    .ModalBody {
+        top: 0%;
+        background-color: transparent;
+        width: 550px;
+        height: 400px;
+        padding: 2% 1% 2% 1%;
+        border-radius: 20px;
+    }
+
+    .videoModal {
+        width: 100%;
+        height: 83%;
+    }
+
+    .collectionImageContainer {
+        margin-top: 30%;
+
+    }
+
+    .collectionImage1 {
+        width: 0%;
+        margin-left: 15%;
+        margin-right: 10%;
+        display: none;
+
+    }
+
+    .collectionImage2 {
+        width: 100%;
+        margin-right: 15%;
+
+
+    }
+
+    .itemcollectionImage1 {
+        margin-bottom: 1%;
+        width: 92%;
+    }
+
+    .itemcollectionImage2 {
+        margin-left: 2%;
+        margin-bottom: 1%;
+        width: 30%;
+        order: 1;
+
+
+    }
+
+    .itemcollectionImage3 {
+        margin-left: 2%;
+        margin-bottom: 1%;
+        width: 50%;
+        order: 2;
+
+
+    }
+
+    .itemcollectionImage4 {
+        margin-left: 2%;
+        margin-bottom: 1%;
+        width: 50%;
+        order: 3;
+
+
+    }
+
+    .itemcollectionImage5 {
+        margin-left: 2%;
+        margin-bottom: 1%;
+        width: 30%;
+        order: 4;
+
+
+    }
+
+    .ssContainer {
+        margin-top: 10%;
+        padding: 2%;
+    }
+
+    .sponsorContainer {
+        width: 90%;
+    }
+
+    .sponsorTitle {
+        margin-bottom: 5%;
+        margin-top: 2%;
+        font-size: 21px;
+    }
+
+    .imageSponser {
+        width: 25%;
+        margin-left: 7%;
+        margin-bottom: 10%;
+    }
+
+    .scoreContainer {
+        width: 90%;
+        margin-left: 2%;
+        margin-bottom: 2%;
+    }
+
+    .scoreItem {
+        width: 100%;
+        margin-bottom: 4%;
+
+    }
+
+    .scoreTitle {
+
+        margin-bottom: 10%;
+        margin-top: 10%;
+        font-weight: 900;
+        font-size: 24px;
+
+    }
+
+    .trophiesImage1 {
+        width: 18px;
+        height: 25px;
+        position: absolute;
+        left: 89%;
+        top: 11%;
+    }
+
+    .trophiesImage2 {
+        width: 17px;
+        height: 21px;
+        position: absolute;
+        left: 89%;
+        top: 13%;
+    }
+
+    .trophiesImage3 {
+        width: 20px;
+        height: 18px;
+        position: absolute;
+        left: 89%;
+        top: 20%;
+    }
+
+    .nameScore {
+        margin-right: 12%;
+        font-size: 19px;
+
+    }
+
+    .numberScore {
+        margin-right: 40%;
+        font-size: 19px;
+    }
+
+    .ellipticScore {
+        width: 20%;
+        border-radius: 150px;
+        margin-bottom: 5%;
+        padding: 1% 1% 1% 1%;
+        font-size: 14px;
+        font-weight: 900;
+    }
+
+    .arrowScore {
+        font-size: 17px;
+    }
+
+
+
+
+
+    .mediaConnectionContainer {
+        padding-right: 10%;
+        margin-top: 15%;
+    }
+
+    .mediaItem {
+        margin-top: 6%;
+
+    }
+
+    .mediaImage {
+        margin-left: 0%;
+        z-index: 1;
+    }
+
+
+    .mediaApp {
+        width: 33%;
+    }
+
+    .phone {
+        width: 33%;
+        margin-right: 0%;
+    }
+
+    .MediaExplaintion {
+        margin-right: -7%;
+        margin-top: 4%;
+        padding: 1%;
+        width: 70%;
+        height: 35px;
+        font-size: 14px;
+
+    }
+
+    .phoneInfo {
+        margin-right: -8%;
+        margin-top: 2%;
+        padding: 1%;
+        width: 70%;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .typePhone {
+        width: 40%;
+        left: 50%;
+        top: 100%;
+        border-radius: 30px;
+        font-size: 10px;
+        padding: 1%;
+
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    .mustSale {
+        position: absolute;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .mustSale::before {
+        content: '';
+        position: absolute;
+        left: 85%;
+        top: 40%;
+        transform: rotate(45deg) translateY(-50%) skew(20deg, 20deg);
+        width: 40px;
+        height: 40px;
+        background-color: rgba(255, 255, 255, 0);
+        border: 1.6px solid orange;
+        border-radius: 5px;
+    }
+
+    .card {
+        min-width: 40%;
+        max-width: 45%;
+
+    }
+
+    .head {
+        height: 500px;
+    }
+
+    .my-image {
+        width: 65%;
+    }
+
+    .bar {
+
+        width: 93%;
+        display: block;
+    }
+
+    .barObj {
+        font-size: 12px;
+        margin-bottom: 15px;
+
+
+    }
+
+    .barMarginMid {
+        margin-left: 1%;
+        margin-right: 2%;
+    }
+
+    .barMarginEnd {
+        margin-left: 1%;
+
+    }
+
+    .barMarginStart {
+        margin-right: 1%;
+
+    }
+
+
+
+    .Addendum {
+        position: absolute;
+        top: 55%;
+        left: 32%;
+        border-radius: 8%;
+        width: 15%;
+        height: 23%;
+
+    }
+
+    .divBox {
+        margin-top: 13%;
+    }
+
+    .number {
+        font-size: 260%;
+    }
+
+
+    .posEnd {
+        left: 75%;
+
+
+    }
+
+    .persiamP {
+        font-size: 110%;
+    }
+
+
+
+    .sportName {
+
+
+        top: 50%;
+        left: 75%;
+        width: 33%;
+
+
+    }
+
+    .Name1 {
+        font-weight: 600;
+        font-family: "IBM Plex Sans Arabic";
+        margin-bottom: 0px;
+        font-size: 40px;
+
+
+    }
+
+    .explanation {
+        font-size: 15px;
+        font-weight: 500;
+        margin-top: 5px;
+
+    }
+
+    @keyframes text {
+        from {
+            top: 50%;
+            left: 50%;
+            opacity: 0%;
+        }
+
+        to {
+            top: 50%;
+            left: 75%;
+            opacity: 100%;
+        }
+
+    }
+
+    @keyframes text2 {
+        to {
+            top: 50%;
+            left: 50%;
+            opacity: 0%;
+        }
+
+        from {
+            top: 50%;
+            left: 75%;
+            opacity: 100%;
+        }
+
+    }
+
+    .lozi-image {
+
+        top: 7%;
+        left: 50%;
+        width: 23%;
+
+
+    }
+
+    .shopIcon {
+
+        top: 3%;
+        left: 15%;
+        font-size: 15px;
+        display: inline;
+
+    }
+
+    .searchIcon {
+        top: 3%;
+        left: 10.5%;
+        font-size: 15px;
+        display: inline;
+
+    }
+
+    .userIcon {
+        top: 3%;
+        left: 6%;
+        font-size: 15px;
+        display: inline;
+
+    }
+
+    .arrow-left {
+
+        width: 35px;
+        height: 35px;
+        top: 80%;
+        left: 83.5%;
+
+    }
+
+    .arrow-right {
+
+        width: 35px;
+        height: 35px;
+        top: 80%;
+        left: 89%;
+
+
+    }
+
+    .arrowIcon {
+        font-size: 20px;
+    }
+
+    .circleAnimationContainer {
+
+        top: 88%;
+        left: 49.6%;
+        width: 18px;
+        height: 40px;
+    }
+
+    .circleAnimation {
+        height: 7px;
+        width: 7px;
+    }
+
+    .sportsContainer {
+        width: 87%;
+        height: 620px;
+        margin-top: 10%;
+        padding: 1%;
+
+    }
+
+    .flexDiamond {
+        margin-left: .5%;
+        margin-top: 3%;
+        margin-bottom: 5%;
+        width: 19%;
+
+    }
+
+    .pDiamondContainer {
+        font-size: 18px;
+        margin-bottom: 10%;
+        margin-top: 4%;
+    }
+
+    .imageDiamond {
+
+        width: 100%;
+        margin: 0px;
+    }
+
+
+
+
+
+
+
+    .whyDiamondContainer {
+        width: 90%;
+    }
+
+    .Description {
+
+        left: 50%;
+        top: 10%;
+    }
+
+    .blockContainer {
+        margin-top: 30%;
+
+    }
+
+    .block1 {
+        width: 100%;
+        padding: 0%;
+        order: 1;
+        height: 170px;
+        position: relative;
+    }
+
+    .block2 {
+        width: 100%;
+        padding: 5%;
+        order: 2;
+        height: 170px;
+        position: relative;
+    }
+
+    .block3 {
+        width: 100%;
+        padding: 5%;
+        order: 4;
+        height: 170px;
+        position: relative;
+
+    }
+
+    .block4 {
+        width: 100%;
+        padding: 5%;
+        order: 3;
+        height: 170px;
+        position: relative;
+
+    }
+
+    .imageBlock {
+        width: 15%;
+        position: absolute;
+        left: 71%;
+    }
+
+    .imageBlock2 {
+        width: 15%;
+        position: absolute;
+        left: 71%;
+
+    }
+
+    .imageBlock3 {
+
+        width: 15%;
+        position: absolute;
+        left: 71%;
+
+    }
+
+    .imageBlock4 {
+
+        width: 15%;
+        position: absolute;
+        left: 71%;
+
+    }
+
+    .textP {
+        display: inline;
+        font-weight: bold;
+
+    }
+
+    .textBlock {
+        margin-right: 0%;
+        margin-left: -20%;
+        text-align: center;
+        width: 50%;
+        font-size: 20px;
+        direction: rtl;
+
+    }
+
+    .textBlock2 {
+        margin-right: 0%;
+        margin-left: -20%;
+        text-align: center;
+        width: 50%;
+        font-size: 20px;
+        direction: rtl;
+
+    }
+
+    .textBlock3 {
+        margin-right: 0%;
+        margin-left: -20%;
+        text-align: center;
+        width: 50%;
+        font-size: 20px;
+        direction: rtl;
+
+    }
+
+    .textBlock4 {
+        margin-right: 0%;
+        margin-left: -20%;
+        text-align: center;
+        width: 50%;
+        font-size: 20px;
+        direction: rtl;
+
+    }
+
+
+
+    .diamondVideoContainer {
+        width: 100%;
+        height: 500px;
+    }
+
+    .videoImageWhyDiamond {
+        width: 90%;
+        left: 10%;
+        top: 25%;
+    }
+
+    .videoBorderWhyDiamond {
+        border: 3px solid black;
+        width: 90%;
+        top: 28%;
+        left: 7%;
+
+    }
+
+    .buttonPlay {
+        left: 55%;
+        top: 60%;
+        font-size: 80px;
+
+    }
+
+    .ModalBody {
+        top: 14%;
+        background-color: transparent;
+        width: 700px;
+        height: 400px;
+        padding: 2% 1% 2% 1%;
+        border-radius: 20px;
+    }
+
+    .videoModal {
+        width: 95%;
+        height: 102%;
+    }
+
+    .collectionImageContainer {
+        margin-top: 30%;
+
+    }
+
+    .collectionImage1 {
+        width: 30%;
+        margin-left: -1.5%;
+        margin-right: 10%;
+        display: inline;
+
+    }
+
+    .collectionImage2 {
+        width: 70%;
+        margin-right: 0%;
+    }
+
+    .itemcollectionImage1 {
+        margin-bottom: 1%;
+        width: 92%;
+    }
+
+    .itemcollectionImage2 {
+        margin-left: 2%;
+        margin-bottom: 1%;
+        width: 30%;
+
+    }
+
+    .itemcollectionImage3 {
+        margin-left: 2%;
+        margin-bottom: 1%;
+        width: 50%;
+
+    }
+
+    .itemcollectionImage4 {
+        margin-left: 2%;
+        margin-bottom: 1%;
+        width: 50%;
+
+    }
+
+    .itemcollectionImage5 {
+        margin-left: 2%;
+        margin-bottom: 1%;
+        width: 30%;
+
+    }
+
+    .ssContainer {
+        margin-top: 10%;
+        padding: 2%;
+    }
+
+    .sponsorContainer {
+        width: 90%;
+    }
+
+    .sponsorTitle {
+        margin-bottom: 5%;
+        margin-top: 2%;
+        font-size: 22px;
+    }
+
+    .imageSponser {
+        width: 17%;
+        margin-left: 7%;
+        margin-bottom: 6%;
+    }
+
+    .scoreContainer {
+        width: 90%;
+        margin-left: 2%;
+        margin-bottom: 2%;
+    }
+
+    .scoreItem {
+        width: 100%;
+        margin-bottom: 4%;
+
+    }
+
+    .scoreTitle {
+
+        margin-bottom: 10%;
+        margin-top: 10%;
+        font-weight: 900;
+        font-size: 40px;
+
+    }
+
+    .trophiesImage1 {
+        width: 18px;
+        height: 25px;
+        position: absolute;
+        left: 89%;
+        top: 16%;
+    }
+
+    .trophiesImage2 {
+        width: 17px;
+        height: 21px;
+        position: absolute;
+        left: 89%;
+        top: 20%;
+    }
+
+    .trophiesImage3 {
+        width: 20px;
+        height: 18px;
+        position: absolute;
+        left: 89%;
+        top: 20%;
+    }
+
+    .nameScore {
+        margin-right: 12%;
+        font-size: 24px;
+
+    }
+
+    .numberScore {
+        margin-right: 40%;
+        font-size: 24px;
+    }
+
+    .ellipticScore {
+        width: 20%;
+        border-radius: 150px;
+        margin-bottom: 5%;
+        padding: 1% 1% 1% 1%;
+        font-size: 14px;
+        font-weight: 900;
+    }
+
+    .arrowScore {
+        font-size: 17px;
+    }
+
+
+
+
+    .mediaConnectionContainer {
+        padding-right: 10%;
+        margin-top: 15%;
+    }
+
+    .mediaItem {
+        margin-top: 6%;
+
+    }
+
+    .mediaImage {
+        margin-left: 0%;
+        z-index: 1;
+    }
+
+
+    .mediaApp {
+        width: 33%;
+    }
+
+    .phone {
+        width: 33%;
+        margin-right: 0%;
+    }
+
+    .MediaExplaintion {
+        margin-right: -7%;
+        margin-top: 4%;
+        padding: 1%;
+        width: 70%;
+        height: 35px;
+        font-size: 14px;
+
+    }
+
+    .phoneInfo {
+        margin-right: -8%;
+        margin-top: 2%;
+        padding: 1%;
+        width: 70%;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .typePhone {
+        width: 40%;
+        left: 50%;
+        top: 100%;
+        border-radius: 30px;
+        font-size: 10px;
+        padding: 1%;
+
+    }
+
+
+}
+
+@media only screen and (min-width: 992px) {
+
+    .card {
+        min-width: 25%;
+        max-width: 25%;
+
+    }
+
+    .head {
+        height: 700px;
+    }
+
+    .my-image {
+        width: 65%;
+    }
+
+
+    .bar {
+
+        width: 98%;
+        display: block;
+    }
+
+    .barObj {
+        margin-bottom: 20px;
+
+        font-size: 13px;
+
+    }
+
+    .barMarginMid {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .barMarginEnd {
+        margin-left: 1%;
+
+    }
+
+    .barMarginStart {
+        margin-right: 1%;
+
+    }
+
+    .headList:before {
+        right: -20%;
+        top: 53%;
+    }
+
+    /* ---------------------------------------------------------- */
+
+    .liPingpong {
+
+        margin-top: 10%;
+        font-size: 12px;
+    }
+
+
+    .pingpongObj {
+        margin-left: 0.25%;
+        margin-right: -2%;
+        margin-top: 1%;
+        min-width: 16%;
+        max-width: 19%;
+
+    }
+
+    .liPool {
+
+        margin-top: 10%;
+        font-size: 11px;
+    }
+
+
+    .poolObj {
+        margin-left: 1%;
+        margin-right: -1%;
+        margin-top: 1%;
+        min-width: 15%;
+        max-width: 17%;
+
+    }
+
+    .liBodyBulding {
+
+        margin-top: 10%;
+        font-size: 11px;
+    }
+
+
+    .bodybuildingObj {
+        margin-left: 1%;
+        margin-right: -1%;
+        margin-top: 1%;
+        min-width: 15%;
+        max-width: 17%;
+
+    }
+
+    .liSkate {
+
+        margin-top: 7%;
+        font-size: 10px;
+    }
+
+    .skateObj {
+        margin-left: 0%;
+        margin-right: 2%;
+        margin-top: 1%;
+        min-width: 26%;
+        max-width: 28%;
+
+    }
+
+    .liFootball {
+
+        margin-top: 7%;
+        font-size: 14px;
+    }
+
+    .footballObj {
+        margin-left: 0%;
+        margin-right: 2%;
+        margin-top: 1%;
+        min-width: 26%;
+        max-width: 28%;
+
+    }
+
+    .liClubSports {
+
+        margin-top: 5%;
+        font-size: 14px;
+    }
+
+    .clubSportsObj {
+        margin-left: 0%;
+        margin-right: 2%;
+        margin-top: 1%;
+        min-width: 26%;
+        max-width: 28%;
+
+    }
+
+    .liBadminton {
+
+        margin-top: 10%;
+        font-size: 11px;
+    }
+
+    .badmintonObj {
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 1%;
+        min-width: 15%;
+        max-width: 17%;
+
+    }
+
+    .liTennis {
+
+        margin-top: 10%;
+        font-size: 11px;
+    }
+
+    .tennisObj {
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 1%;
+        min-width: 15%;
+        max-width: 17%;
+
+    }
+
+    .sportBallObj {
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 1%;
+        min-width: 18%;
+        max-width: 20%;
+
+    }
+
+
+    /* ---------------------------------------------------- */
+
+    .headList {
+        font-size: 14px;
+    }
+
+
+    .imageContainerBar {
+
+        position: absolute;
+        left: 8px;
+        top: 13px;
+
+
+    }
+
+    .imageBar {
+        width: 200px;
+    }
+
+
+    .hidden {
+        top: 70%;
+    }
+
+    .Addendum {
+        position: absolute;
+        top: 57%;
+        left: 30%;
+        border-radius: 10%;
+        width: 15%;
+        height: 20%;
+
+    }
+
+    .divBox {
+        margin-top: 13%;
+    }
+
+    .number {
+        font-size: 340%;
+    }
+
+
+    .posEnd {
+        left: 75%;
+
+
+    }
+
+    .persiamP {
+        font-size: 120%;
+    }
+
+
+
+    .sportName {
+
+        top: 50%;
+        left: 75%;
+        width: 30%;
+    }
+
+    .Name1 {
+        font-weight: 900;
+        font-family: "IBM Plex Sans Arabic";
+        font-size: 60px;
+        margin-bottom: 0px;
+    }
+
+    .explanation {
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 0px;
+
+    }
+
+
+    .lozi-image {
+
+        top: 5%;
+        left: 50%;
+        width: 13%;
+
+
+    }
+
+
+    .lozi-image {
+
+        top: 8%;
+        left: 50%;
+        width: 20%;
+
+
+    }
+
+    .shopIcon {
+
+        top: 5%;
+        left: 20%;
+        font-size: 15px;
+
+    }
+
+    .searchIcon {
+        top: 5%;
+        left: 16.5%;
+        font-size: 15px;
+    }
+
+    .userIcon {
+        top: 5%;
+        left: 13%;
+        font-size: 15px;
+    }
+
+    .arrow-left {
+
+        width: 35px;
+        height: 35px;
+        top: 80%;
+        left: 84%;
+
+    }
+
+    .arrow-right {
+
+        width: 35px;
+        height: 35px;
+        top: 80%;
+        left: 88%;
+
+
+    }
+
+    .arrowIcon {
+        font-size: 20px;
+    }
+
+
+    .loginP3 {
+        left: 10%;
+        top: 10%;
+        padding: .4%;
+        font-size: 12px;
+    }
+
+    .loginP2 {
+        left: 15.5%;
+        top: 10%;
+        padding: .4%;
+        font-size: 12px;
+    }
+
+    .loginP1 {
+        left: 18.5%;
+        top: 10%;
+        padding: .4%;
+        font-size: 12px;
+    }
+
+    .userIcon:hover+.loginP3 {
+
+        display: block;
+
+    }
+
+    .searchIcon:hover+.loginP2 {
+
+        display: block;
+
+    }
+
+    .shopIcon:hover+.loginP1 {
+
+        display: block;
+
+    }
+
+    .circleAnimationContainer {
+
+        top: 83%;
+        left: 49.6%;
+        width: 18px;
+        height: 40px;
+    }
+
+    .circleAnimation {
+        height: 6px;
+        width: 6px;
+    }
+
+
+
+    .sportsContainer {
+        width: 87%;
+        height: 600px;
+        margin-top: 10%;
+        padding: 1%;
+
+    }
+
+    .flexDiamond {
+        margin-left: .5%;
+        margin-top: 3%;
+        margin-bottom: 5%;
+        width: 19%;
+
+    }
+
+    .pDiamondContainer {
+        font-size: 18px;
+        margin-bottom: 2%;
+        margin-top: 4%;
+    }
+
+    .imageDiamond {
+
+        width: 90%;
+        margin: 0px;
+    }
+
+
+
+
+
+    .whyDiamond {
+        flex-direction: row;
+
+    }
+
+
+    .whyDiamondContainer {
+        width: 60%;
+    }
+
+    .Description {
+
+        left: 50%;
+        top: 10%;
+    }
+
+    .blockContainer {
+        margin-top: 20%;
+
+    }
+
+    .block1 {
+        width: 50%;
+        padding: 5%;
+        order: 1;
+        position: relative;
+        height: 80px;
+
+    }
+
+    .block2 {
+        width: 50%;
+        padding: 5%;
+        order: 2;
+        position: relative;
+        height: 80px;
+
+
+
+    }
+
+    .block3 {
+        width: 50%;
+        padding: 5%;
+        order: 3;
+        position: relative;
+        height: 80px;
+
+
+    }
+
+    .block4 {
+        width: 50%;
+        padding: 5%;
+        order: 4;
+        position: relative;
+        height: 80px;
+
+
+    }
+
+    .textP {
+        display: inline;
+        font-weight: bold;
+
+    }
+
+    .textBlock {
+        margin-right: 0%;
+        margin-left: -40%;
+        text-align: center;
+        width: 80%;
+        font-size: 15px;
+        direction: rtl;
+    }
+
+    .textBlock2 {
+        margin-right: 0%;
+        margin-left: -40%;
+        text-align: center;
+        width: 80%;
+        font-size: 15px;
+    }
+
+    .textBlock3 {
+        margin-right: 0%;
+        margin-left: -40%;
+        text-align: center;
+        width: 80%;
+        font-size: 15px;
+        direction: rtl;
+    }
+
+    .textBlock4 {
+        margin-right: 0%;
+        margin-left: -40%;
+        text-align: center;
+        width: 80%;
+        font-size: 15px;
+
+    }
+
+
+
+    .imageBlock {
+        width: 15%;
+        position: absolute;
+        left: 65%;
+
+    }
+
+    .imageBlock2 {
+        width: 15%;
+        position: absolute;
+        left: 65%;
+
+
+    }
+
+    .imageBlock3 {
+
+        width: 15%;
+        position: absolute;
+        left: 65%;
+
+    }
+
+    .imageBlock4 {
+        width: 15%;
+        position: absolute;
+        left: 65%;
+
+    }
+
+    .diamondVideoContainer {
+        width: 40%;
+        height: 450px;
+    }
+
+    .videoImageWhyDiamond {
+        width: 90%;
+        left: 10%;
+        top: 25%;
+    }
+
+    .videoBorderWhyDiamond {
+        border: 5px solid black;
+        width: 90%;
+        top: 28%;
+        left: 7%;
+
+
+    }
+
+    .buttonPlay {
+        left: 55%;
+        top: 45%;
+        font-size: 50px;
+
+    }
+
+
+
+    .ModalBody {
+        top: 10%;
+        background-color: white;
+        width: 800px;
+        height: 500px;
+        padding: 2% 1% 2% 1%;
+        border-radius: 20px;
+    }
+
+    .videoModal {
+        width: 89%;
+    }
+
+    .collectionImageContainer {
+        margin-top: 10%;
+
+    }
+
+    .collectionImage1 {
+        width: 30%;
+        margin-left: -1.5%;
+        margin-right: 10%;
+    }
+
+    .collectionImage2 {
+        width: 70%;
+    }
+
+    .itemcollectionImage1 {
+        margin-bottom: 1%;
+        width: 92%;
+    }
+
+    .itemcollectionImage2 {
+        margin-left: 2%;
+        margin-bottom: 1%;
+        width: 30%;
+
+    }
+
+    .itemcollectionImage3 {
+        margin-left: 2%;
+        margin-bottom: 1%;
+        width: 50%;
+
+    }
+
+    .itemcollectionImage4 {
+        margin-left: 2%;
+        margin-bottom: 1%;
+        width: 50%;
+
+    }
+
+    .itemcollectionImage5 {
+        margin-left: 2%;
+        margin-bottom: 1%;
+        width: 30%;
+
+    }
+
+
+
+
+    .ssContainer {
+        margin-top: 10%;
+        padding: 1%;
+    }
+
+    .sponsorContainer {
+        width: 60%;
+        height: 300px;
+
+    }
+
+    .sponsorTitle {
+        margin-bottom: 5%;
+        margin-top: 2%;
+        font-size: 21px;
+    }
+
+    .imageSponser {
+        width: 17%;
+        margin-left: 7%;
+        margin-bottom: 2%;
+    }
+
+    .scoreContainer {
+        width: 35%;
+        margin-left: 2%;
+        height: 300px;
+    }
+
+    .scoreItem {
+        width: 100%;
+        margin-bottom: 4%;
+
+    }
+
+    .scoreTitle {
+
+        margin-bottom: 10%;
+        margin-top: 10%;
+        font-weight: 900;
+        font-size: 21px;
+    }
+
+    .trophiesImage1 {
+        width: 14px;
+        height: 21px;
+        position: absolute;
+        left: 90%;
+        top: auto;
+    }
+
+    .trophiesImage2 {
+        width: 13px;
+        height: 17px;
+        position: absolute;
+        left: 90%;
+        top: 5%;
+    }
+
+    .trophiesImage3 {
+        width: 16px;
+        height: 14px;
+        position: absolute;
+        left: 90%;
+        top: 10%;
+    }
+
+    .nameScore {
+        margin-right: 12%;
+        font-size: 16px;
+    }
+
+    .numberScore {
+        margin-right: 33%;
+        font-size: 16px;
+
+    }
+
+    .ellipticScore {
+        width: 33.33%;
+        border-radius: 150px;
+        margin-bottom: 5%;
+        padding: 1% 1% 1% 1%;
+        font-size: 14px;
+        font-weight: 900;
+    }
+
+    .arrowScore {
+        font-size: 17px;
+    }
+
+
+    .mediaConnectionContainer {
+        padding-right: 10%;
+        margin-top: 15%;
+    }
+
+    .mediaItem {
+        margin-top: 6%;
+
+    }
+
+    .mediaImage {
+        margin-left: 0%;
+        z-index: 1;
+    }
+
+
+    .mediaApp {
+        width: 25%;
+    }
+
+    .phone {
+        width: 25%;
+    }
+
+    .MediaExplaintion {
+        margin-right: -7%;
+        margin-top: 4%;
+        padding: 1%;
+        width: 70%;
+        height: 35px;
+        font-size: 16px;
+
+    }
+
+    .phoneInfo {
+        margin-right: -8%;
+        margin-top: 4%;
+        padding: 1%;
+        width: 70%;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .typePhone {
+        width: 40%;
+        left: 50%;
+        top: 100%;
+        border-radius: 30px;
+        font-size: 10px;
+        padding: 1%;
+
+    }
+
+    .mediaItem:hover {
+
+        margin-top: 5%;
+    }
+
+    .mouseOnElem {
+
+        font-size: 18px;
+        font-weight: bold;
+
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .card {
+        min-width: 300px;
+        max-width: 12%;
+
+    }
+
+    .head {
+        height: 700px;
+    }
+
+    .my-image {
+        width: 65%;
+    }
+
+    /* .barObj:hover {
+        font-size: 20px;
+        font-weight: bold;
+    } */
+
+    .bar {
+
+        width: 88%;
+        display: block;
+    }
+
+    .barObj {
+        font-size: 14px;
+        margin-bottom: 35px;
+
+
+    }
+
+    .barMarginMid {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .barMarginEnd {
+        margin-left: 2%;
+
+    }
+
+    .barMarginStart {
+        margin-right: 2%;
+
+    }
+
+    .hidden {
+        top: 50%;
+    }
+
+    .headList {
+        font-size: 15px;
+    }
+
+    .headList:before {
+        right: -18%;
+        top: 53%;
+    }
+
+    .imageContainerBar {
+        position: absolute;
+        top: 5px;
+        left: 10px;
+    }
+
+    .imageBar {
+        width: 250px;
+    }
+
+    /* ----------------------------------- */
+
+    .liPingpong {
+
+        margin-top: 10%;
+        font-size: 12px;
+    }
+
+    .pingpongObj {
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 1%;
+        min-width: 14%;
+        max-width: 17%;
+
+    }
+
+
+
+    .liPool {
+
+        margin-top: 10%;
+        font-size: 14px;
+    }
+
+    .poolObj {
+        margin-left: 0%;
+        margin-right: -.5%;
+        margin-top: 1%;
+        min-width: 15%;
+        max-width: 19%;
+
+    }
+
+    .liBodyBulding {
+
+        margin-top: 10%;
+        font-size: 13px;
+    }
+
+    .bodybuildingObj {
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 1%;
+        min-width: 14%;
+        max-width: 17%;
+
+    }
+
+    .liSkate {
+
+        margin-top: 5%;
+        font-size: 14px;
+    }
+
+    .skateObj {
+        margin-left: 0%;
+        margin-right: 2%;
+        margin-top: 1%;
+        min-width: 26%;
+        max-width: 28%;
+
+    }
+
+
+    .liFootball {
+
+        margin-top: 7%;
+        font-size: 14px;
+    }
+
+    .footballObj {
+        margin-left: 0%;
+        margin-right: 2%;
+        margin-top: 1%;
+        min-width: 26%;
+        max-width: 28%;
+
+    }
+
+    .liClubSports {
+
+        margin-top: 5%;
+        font-size: 14px;
+    }
+
+    .clubSportsObj {
+        margin-left: 0%;
+        margin-right: 2%;
+        margin-top: 1%;
+        min-width: 26%;
+        max-width: 28%;
+
+    }
+
+    .liBadminton {
+
+        margin-top: 10%;
+        font-size: 13px;
+        color: black;
+
+    }
+
+    .badmintonObj {
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 1%;
+        min-width: 15%;
+        max-width: 17%;
+
+    }
+
+    .liTennis {
+
+        margin-top: 10%;
+        font-size: 13px;
+    }
+
+    .tennisObj {
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 1%;
+        min-width: 15%;
+        max-width: 17%;
+
+    }
+
+
+
+
+    /* ----------------------------------- */
+
+
+
+    .Addendum {
+        position: absolute;
+        top: 57%;
+        left: 33%;
+        border-radius: 8%;
+        width: 14%;
+        height: 25%;
+
+    }
+
+    .divBox {
+        margin-top: 15%;
+    }
+
+    .number {
+        font-size: 440%;
+    }
+
+
+    .posEnd {
+        left: 75%;
+
+
+    }
+
+    .persiamP {
+        font-size: 140%;
+    }
+
+
+
+    .sportName {
+
+        top: 50%;
+        left: 75%;
+
+    }
+
+    .Name1 {
+        font-weight: 900;
+        font-family: "IBM Plex Sans Arabic";
+        margin-bottom: 0px;
+        font-size: 75px;
+
+
+    }
+
+    .explanation {
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 0px;
+
+    }
+
+    .lozi-image {
+
+        top: 5%;
+        left: 50%;
+        width: 12.5%;
+
+
+    }
+
+    .shopIcon {
+
+        top: 5%;
+        left: 16%;
+        font-size: 20px;
+
+    }
+
+    .searchIcon {
+        top: 5%;
+        left: 11.5%;
+        font-size: 20px;
+    }
+
+    .userIcon {
+        top: 5%;
+        left: 7%;
+        font-size: 20px;
+    }
+
+    .arrow-left {
+
+        width: 35px;
+        height: 35px;
+        top: 90%;
+        left: 85%;
+
+    }
+
+    .arrow-right {
+
+        width: 35px;
+        height: 35px;
+        top: 90%;
+        left: 88%;
+
+
+    }
+
+    .arrowIcon {
+        font-size: 20px;
+    }
+
+    .loginP3 {
+        left: 5%;
+        top: 12%;
+        padding: .6%;
+        font-size: 13px;
+    }
+
+    .loginP2 {
+        left: 10.75%;
+        top: 12%;
+        padding: .6%;
+        font-size: 13px;
+    }
+
+    .loginP1 {
+        left: 14.75%;
+        top: 12%;
+        padding: .6%;
+        font-size: 13px;
+    }
+
+    .circleAnimationContainer {
+
+        top: 90%;
+        left: 49.6%;
+        width: 18px;
+        height: 40px;
+    }
+
+    .circleAnimation {
+        height: 6px;
+        width: 6px;
+    }
+
+
+
+
+
+
+
+    .sportsContainer {
+        width: 87%;
+        height: 800px;
+        margin-top: 10%;
+        padding: 1%;
+
+    }
+
+
+    .flexDiamond {
+        margin-left: 1%;
+        margin-top: 3%;
+        margin-bottom: 5%;
+
+    }
+
+    .pDiamondContainer {
+        font-size: 20px;
+        margin-bottom: 2%;
+        margin-top: 4%;
+    }
+
+    .imageDiamond {
+
+        width: 85%;
+    }
+
+
+
+    .whyDiamondContainer {
+        width: 60%;
+    }
+
+    .Description {
+
+        left: 50%;
+        top: 10%;
+    }
+
+    .blockContainer {
+        margin-top: 20%;
+
+    }
+
+    .block1 {
+        width: 50%;
+        padding: 5%;
+        position: relative;
+        height: 100px;
+
+    }
+
+    .block2 {
+        width: 50%;
+        padding: 5%;
+        position: relative;
+        height: 100px;
+
+    }
+
+    .block3 {
+        width: 50%;
+        padding: 5%;
+        position: relative;
+        height: 100px;
+
+
+    }
+
+    .block4 {
+        width: 50%;
+        padding: 5%;
+        position: relative;
+        height: 100px;
+
+
+    }
+
+    .textP {
+        display: inline;
+        font-weight: bold;
+    }
+
+    .textBlock {
+        margin-right: 0%;
+        margin-left: -40%;
+        text-align: center;
+        width: 80%;
+        font-size: 18px;
+    }
+
+    .textBlock2 {
+        margin-right: 0%;
+        margin-left: -40%;
+        text-align: center;
+        width: 80%;
+        font-size: 20px;
+    }
+
+    .textBlock3 {
+        margin-right: 0%;
+        margin-left: -40%;
+        text-align: center;
+        width: 80%;
+        font-size: 20px;
+    }
+
+    .textBlock4 {
+        margin-right: 0%;
+        margin-left: -40%;
+        text-align: center;
+        width: 80%;
+        font-size: 20px;
+    }
+
+
+
+    .imageBlock {
+        width: 20%;
+        position: absolute;
+        left: 65%;
+
+    }
+
+    .imageBlock2 {
+        width: 20%;
+        position: absolute;
+        left: 65%;
+
+
+    }
+
+    .imageBlock3 {
+        width: 20%;
+        position: absolute;
+        left: 65%;
+
+    }
+
+    .imageBlock4 {
+        width: 20%;
+        position: absolute;
+        left: 65%;
+
+    }
+
+
+
+    .buttonPlay {
+        left: 57%;
+        top: 54%;
+        font-size: 70px;
+
+    }
+
+
+
+
+
+    .ModalBody {
+        top: 10%;
+        background-color: white;
+        width: 1000px;
+        height: 550px;
+        padding: 2% 1% 2% 1%;
+        border-radius: 20px;
+    }
+
+    .videoModal {
+        width: 89%;
+        height: auto;
+    }
+
+    .collectionImageContainer {
+        margin-top: 10%;
+
+    }
+
+    .collectionImage1 {
+        width: 30%;
+        margin-left: -1.5%;
+        margin-right: 10%;
+    }
+
+    .collectionImage2 {
+        width: 70%;
+    }
+
+    .itemcollectionImage1 {
+        margin-bottom: 1%;
+        width: 92%;
+    }
+
+    .itemcollectionImage2 {
+        margin-left: 2%;
+        margin-bottom: 1%;
+        width: 30%;
+
+    }
+
+    .itemcollectionImage3 {
+        margin-left: 2%;
+        margin-bottom: 1%;
+        width: 50%;
+
+    }
+
+    .itemcollectionImage4 {
+        margin-left: 2%;
+        margin-bottom: 1%;
+        width: 50%;
+
+    }
+
+    .itemcollectionImage5 {
+        margin-left: 2%;
+        margin-bottom: 1%;
+        width: 30%;
+
+    }
+
+
+
+
+    .ssContainer {
+        margin-top: 6%;
+        padding: 5%;
+    }
+
+    .sponsorContainer {
+        width: 60%;
+        height: 300px;
+    }
+
+    .sponsorTitle {
+        margin-bottom: 5%;
+        margin-top: 2%;
+        font-size: 21px;
+    }
+
+    .imageSponser {
+        width: 15%;
+        margin-left: 7%;
+        margin-bottom: 2%;
+    }
+
+    .scoreContainer {
+        width: 25%;
+        margin-left: 2%;
+        height: 300px;
+
+    }
+
+    .scoreItem {
+        width: 100%;
+        margin-bottom: 4%;
+
+    }
+
+    .scoreTitle {
+
+        margin-bottom: 10%;
+        margin-top: 10%;
+        font-weight: 900;
+    }
+
+    .trophiesImage1 {
+        width: 14px;
+        height: 21px;
+        position: absolute;
+        left: 90%;
+    }
+
+    .trophiesImage2 {
+        width: 13px;
+        height: 17px;
+        position: absolute;
+        left: 90%;
+        top: 5%;
+    }
+
+    .trophiesImage3 {
+        width: 16px;
+        height: 14px;
+        position: absolute;
+        left: 90%;
+        top: 10%;
+    }
+
+    .nameScore {
+        margin-right: 12%;
+
+    }
+
+    .numberScore {
+        margin-right: 25%;
+    }
+
+    .ellipticScore {
+        width: 33.33%;
+        border-radius: 150px;
+        margin-bottom: 5%;
+        padding: 1% 1% 1% 1%;
+        font-size: 14px;
+        font-weight: 900;
+    }
+
+    .arrowScore {
+        font-size: 17px;
+    }
+
+
+    .mediaConnectionContainer {
+        padding-right: 10%;
+        margin-top: 15%;
+    }
+
+    .mediaItem {
+        margin-top: 6%;
+
+    }
+
+    .mediaImage {
+        margin-left: 0%;
+        z-index: 1;
+    }
+
+
+    .mediaApp {
+        width: 25%;
+    }
+
+    .phone {
+        width: 25%;
+    }
+
+    .MediaExplaintion {
+        margin-right: -7%;
+        margin-top: 4%;
+        padding: 1%;
+        width: 70%;
+        height: 35px;
+        font-size: 16px;
+
+    }
+
+    .phoneInfo {
+        margin-right: -6%;
+        margin-top: 4%;
+        padding: 1%;
+        width: 70%;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .typePhone {
+        width: 40%;
+        left: 50%;
+        top: 100%;
+        border-radius: 30px;
+        font-size: 10px;
+        padding: 1%;
+
+    }
+
+    .mediaItem:hover {
+
+        margin-top: 5%;
+    }
+
+    .mouseOnElem {
+
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+
+}

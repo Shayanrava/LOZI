@@ -1,0 +1,603 @@
+.main-clubsports {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(238, 235, 235, 0.7);
+}
+
+.head-clubsports {
+
+    background-image: url('../clubsports.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(10px);
+    z-index: 0;
+}
+
+.body-clubsports {
+    background-color: rgba(231, 227, 227, 0.7);
+
+}
+
+.dir-rtl {
+    direction: rtl;
+
+}
+
+.dir-ltr {
+    direction: ltr;
+
+}
+
+.flexcon {
+
+    display: flex;
+    flex-direction: row;
+}
+
+.mt-collection-container {
+
+    margin-top: 60px;
+
+}
+
+.height-500 {
+    height: 500px;
+}
+
+.mt-400 {
+    margin-top: -505px;
+}
+
+.lider_bord {
+    background-color: #444;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    padding: 2px 30px;
+}
+
+.tro3 {
+    margin-top: .35rem;
+}
+
+.tro2 {
+    margin-top: .3rem;
+}
+
+.scores {
+    color: rgb(207, 202, 202);
+}
+
+.introduction {
+    background-color: white;
+    text-align: justify;
+    line-height: 36px;
+
+}
+
+
+@media only screen and (max-width: 576px) {
+    .head-clubsports {
+        height: 20rem;
+    }
+
+    .mt-collection-3 {
+        margin-top: .9rem;
+    }
+
+    .me-collection-4 {
+        margin-right: 1.1rem;
+    }
+
+    .me-collection-3 {
+        margin-right: .9rem;
+    }
+
+    .my-m-3 {
+        margin-left: 0px;
+        margin-top: 1.5rem;
+    }
+
+    .img1 {
+        width: 200px;
+        height: auto
+    }
+
+    .img2 {
+        width: 147px;
+        height: auto
+    }
+
+    .img3 {
+        width: 370px;
+        height: auto
+    }
+
+    .img4 {
+        width: 370px;
+        height: auto
+    }
+
+    .img5 {
+        width: 147px;
+        height: auto
+    }
+
+    .d-lg-flex {
+        display: none !important;
+    }
+
+    .d-mobile-flex {
+        display: flex !important;
+    }
+
+    .clubScore {
+        width: calc(370px);
+        padding: 6%;
+    }
+
+
+    .lastPapers {
+        width: calc(370px);
+    }
+
+    .scores {
+        margin-right: 13rem;
+    }
+
+    .width-a {
+        width: 100%;
+    }
+
+    .width-a2 {
+        width: 100%;
+    }
+
+    .width-a3 {
+        width: 100%;
+    }
+
+    .width-a4 {
+        width: 100%;
+    }
+
+    .width-a5 {
+        width: 100%;
+    }
+
+    .introduction {
+        width: calc(96%);
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .head-clubsports {
+        height: 22rem;
+    }
+
+    .mt-collection-3 {
+        margin-top: .9rem;
+    }
+
+    .me-collection-4 {
+        margin-right: 1.1rem;
+    }
+
+    .me-collection-3 {
+        margin-right: .9rem;
+    }
+
+    .my-m-3 {
+        margin-left: 0px;
+        margin-top: 1.5rem;
+    }
+
+    .img1 {
+        width: 250px;
+        height: auto
+    }
+
+    .img2 {
+        width: 185px;
+        height: auto
+    }
+
+    .img3 {
+        width: 450px;
+        height: auto
+    }
+
+    .img4 {
+        width: 450px;
+        height: auto
+    }
+
+    .img5 {
+        width: 184px;
+        height: auto
+    }
+
+    .d-lg-flex {
+        display: none !important;
+    }
+
+    .d-mobile-flex {
+        display: flex !important;
+    }
+
+    .clubScore {
+        width: calc(450px);
+        padding: 2%;
+    }
+
+    .lastPapers {
+        width: calc(450px);
+    }
+
+    .scores {
+        margin-right: 18rem;
+    }
+
+
+    .width-a {
+        width: 100%;
+    }
+
+    .width-a2 {
+        width: 100%;
+    }
+
+    .width-a3 {
+        width: 100%;
+    }
+
+    .width-a4 {
+        width: 100%;
+    }
+
+    .width-a5 {
+        width: 100%;
+    }
+
+    .introduction {
+        width: calc(90% );
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .head-clubsports {
+        height: 23rem;
+
+    }
+
+    .mt-collection-3 {
+        margin-top: .9rem;
+    }
+
+    .me-collection-4 {
+        margin-right: 1.1rem;
+    }
+
+    .me-collection-3 {
+        margin-right: .9rem;
+    }
+
+    .my-m-3 {
+        margin-left: 0rem;
+        margin-top: 0%;
+
+    }
+
+    .img1 {
+        width: 220px;
+        height: auto
+    }
+
+    .img2 {
+        width: 162px;
+        height: auto
+    }
+
+    .img3 {
+        width: 300px;
+        height: auto
+    }
+
+    .img4 {
+        width: 300px;
+        height: auto
+    }
+
+    .img5 {
+        width: 162px;
+        height: auto
+    }
+
+
+    .d-lg-flex {
+        display: flex !important;
+    }
+
+    .d-mobile-flex {
+        display: none !important;
+    }
+
+    .clubScore {
+        width: calc(700px + 1rem);
+    }
+
+    .lastPapers {
+        width: calc(700px + 1rem);
+    }
+
+    .scores {
+        margin-right: 35rem;
+    }
+
+    .width-a {
+        width: 31%;
+    }
+
+    .width-a2 {
+        width: 32%;
+    }
+
+    .width-a3 {
+        width: 29%;
+    }
+
+    .width-a4 {
+        width: 35%;
+    }
+
+    .width-a5 {
+        width: 33%;
+    }
+
+    .introduction {
+        width: calc(90%);
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    .head-clubsports {
+        height: 30rem;
+    }
+
+
+
+    .mt-collection-3 {
+        margin-top: 1rem;
+    }
+
+    .me-collection-4 {
+        margin-right: 1.25rem;
+    }
+
+    .me-collection-3 {
+        margin-right: 1rem;
+    }
+
+    .my-m-3 {
+        margin-left: 1rem;
+        margin-top: 0%;
+
+    }
+
+    .img1 {
+        width: 250px;
+        height: auto
+    }
+
+    .img2 {
+        width: 183px;
+        height: auto
+    }
+
+    .img3 {
+        width: 340px;
+        height: auto
+    }
+
+    .img4 {
+        width: 340px;
+        height: auto
+    }
+
+    .img5 {
+        width: 185px;
+        height: auto
+    }
+
+    .clubScore {
+        width: calc(260px);
+    }
+
+    .lastPapers {
+        width: calc(665px + 1.25rem);
+    }
+
+    .scores {
+        margin-right: 7rem;
+    }
+
+
+    .width-a {
+        width: 31%;
+    }
+
+    .width-a2 {
+        width: 32%;
+    }
+
+    .width-a3 {
+        width: 29%;
+    }
+
+    .width-a4 {
+        width: 33%;
+    }
+
+    .width-a5 {
+        width: 33%;
+    }
+    .introduction {
+        width: calc(945px + 1.25rem);
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .head-clubsports {
+        height: 40rem;
+    }
+
+    .mt-collection-3 {
+        margin-top: 1rem;
+    }
+
+    .me-collection-4 {
+        margin-right: 1.5rem;
+    }
+
+    .me-collection-3 {
+        margin-right: 1rem;
+    }
+
+    .img1 {
+        width: auto;
+        height: auto
+    }
+
+    .img2 {
+        width: auto;
+        height: auto
+    }
+
+    .img3 {
+        width: auto;
+        height: auto
+    }
+
+    .img4 {
+        width: auto;
+        height: auto
+    }
+
+    .img5 {
+        width: auto;
+        height: auto
+    }
+
+    .clubScore {
+        width: calc(411px);
+    }
+
+    .lastPapers {
+        width: calc(710px + 1.5rem);
+    }
+
+    .scores {
+        margin-right: 15rem;
+    }
+
+    .width-a {
+        width: 30%;
+    }
+
+    .width-a2 {
+        width: 32%;
+    }
+
+    .width-a3 {
+        width: 30%;
+    }
+
+    .width-a4 {
+        width: 30%;
+    }
+
+    .width-a5 {
+        width: 30%;
+    }
+    .introduction {
+        width: calc(1141px + 1.5rem);
+    }
+
+}
+
+@media only screen and (min-width: 1400px) {
+    .head-clubsports {
+        height: 40rem;
+    }
+
+    .mt-collection-3 {
+        margin-top: 1rem;
+    }
+
+    .me-collection-4 {
+        margin-right: 1.5rem;
+    }
+
+    .me-collection-3 {
+        margin-right: 1rem;
+    }
+
+    .img1 {
+        width: auto;
+        height: auto
+    }
+
+    .img2 {
+        width: auto;
+        height: auto
+    }
+
+    .img3 {
+        width: auto;
+        height: auto
+    }
+
+    .img4 {
+        width: auto;
+        height: auto
+    }
+
+    .img5 {
+        width: auto;
+        height: auto
+    }
+
+    .clubScore {
+        width: calc(485px);
+    }
+
+    .lastPapers {
+        width: calc(711px + 1.5rem);
+    }
+
+    .width-a {
+        width: 30%;
+    }
+
+    .width-a2 {
+        width: 32%;
+    }
+
+    .width-a3 {
+        width: 30%;
+    }
+
+    .width-a4 {
+        width: 30%;
+    }
+
+    .width-a5 {
+        width: 30%;
+    }
+
+    .introduction {
+        width: calc(1215px + 1.5rem);
+    }
+
+}

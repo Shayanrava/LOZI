@@ -1,0 +1,39 @@
+<!DOCTYPE html>  
+<html lang="fa">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>تغییر رنگ بک‌گراند</title>  
+    <style>  
+        body {  
+            transition: background-color 0.3s ease;  
+        }  
+        #myDiv {  
+            margin-top: 20px;  
+            padding: 20px;  
+            background-color: lightgray; /* رنگ پیش‌فرض برای div */  
+            text-align: center;  
+        }  
+    </style>  
+</head>  
+<body>  
+
+<a href="#" id="myLink">  
+    <div id="myDiv">سلام</div>  
+    <button id="myButton">کلیک کن</button>  
+</a>  
+
+<script>  
+    document.getElementById('myLink').addEventListener('click', function(event) {  
+        event.preventDefault(); // جلوگیری از دنبال کردن لینک  
+        document.body.style.backgroundColor = 'red'; // تغییر رنگ پس‌زمینه به قرمز  
+    });  
+
+    document.getElementById('myButton').addEventListener('click', function(event) {  
+        event.stopPropagation(); // جلوگیری از انتشار رویداد به والد (لینک)  
+        document.body.style.backgroundColor = 'yellow'; // تغییر رنگ پس‌زمینه به زرد  
+    });  
+</script>  
+
+</body>  
+</html>
