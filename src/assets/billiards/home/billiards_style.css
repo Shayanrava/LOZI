@@ -1,0 +1,108 @@
+.main-billiards {
+    background-color: rgba(238, 235, 235, 0.7);
+    margin-bottom: 10rem;
+}
+
+.head-billiards {
+
+    background-image: url('../billiards.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(10px);
+    z-index: 0;
+}
+
+.introduction {
+    background-color: white;
+    text-align: justify;
+    line-height: 36px;
+}
+
+.dir-rtl {
+    direction: rtl;
+
+}
+
+@media only screen and (max-width: 576px) {
+
+    .head-billiards {
+        height: 15rem;
+    }
+
+    .introduction {
+        width: 90%;
+    }
+
+    .intro_images {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+
+    .head-billiards {
+        height: 25rem;
+    }
+
+    .introduction {
+        width: 90%;
+    }
+
+    .intro_images {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .head-billiards {
+        height: 28rem;
+    }
+
+    .introduction {
+        width: 90%;
+    }
+
+    .intro_images {
+        width: 75%;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    .head-billiards {
+        height: 25rem;
+    }
+
+    .introduction {
+        width: 90%;
+    }
+
+    .intro_images {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .head-billiards {
+        height: 25rem;
+    }
+
+    .introduction {
+        width: 90%;
+    }
+
+    .intro_images {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .head-billiards {
+        height: 35rem;
+    }
+
+    .introduction {
+        width: 90%;
+    }
+}

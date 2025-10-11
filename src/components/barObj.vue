@@ -62,7 +62,7 @@
 
       <button class="barObj barMarginMid" @mouseover="hoverButton(8)" @mouseout="outButton()" @click="scrolleDown()"
         :class="{ mouseOnElem: isMouseOver[7] }">
-        <router-link style="color: white;" to='/'>
+        <router-link style="color: white;" to='/billiards'>
           بیلیارد
         </router-link>
       </button>
